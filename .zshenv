@@ -25,3 +25,4 @@ alias platex=platex-utf8
 
 alias svndel=find . -name ".svn" -type d -exec echo delete {} ";" -exec rm -rf {} ";"
 alias ll="ls -l"
+
