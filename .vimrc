@@ -18,4 +18,5 @@ set directory=~/Temps
 syntax enable
 set autoindent
 set number
-set paste
+set paste 
+set backspace=indent,eol,start
