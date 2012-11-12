@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="wedisagree"
+ZSH_THEME="agnoster"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -34,4 +34,3 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/Users/yaakaito/.rvm/gems/ruby-1.9.3-p194/bin:/Users/yaakaito/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/yaakaito/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/yaakaito/.rvm/bin:/usr/local/ActivePerl-5.10/bin/:/usr/local/bin/:/Users/k_ukyo/pear/bin/:/opt/local/bin/:/opt/local/sbin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/yaakaito/.rvm/bin
