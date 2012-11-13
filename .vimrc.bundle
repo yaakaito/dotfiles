@@ -1,0 +1,29 @@
+set nocompatible
+filetype plugin indent off
+
+if has('vim_starting')
+  set runtimepath+=~/.vim/neobundle.vim.git/
+  call neobundle#rc(expand('~/.vim/bundle/'))
+endif
+
+NeoBundle 'othree/html5.vim'
+NeoBundle 'vim-scripts/Better-CSS-Syntax-for-Vim'
+NeoBundle 'vim-scripts/vim-coffee-script'
+NeoBundle 'pangloss/vim-javascript'
+NeoBundle 'jQuery'
+NeoBundle 'tpope/vim-markdown'
+
+NeoBundle 'chriskempson/tomorrow-theme'
+NeoBundle 'molokai'
+NeoBundle 'desert256.vim'
+NeoBundle 'Lokaltog/vim-powerline'
+
+NeoBundle 'Solarized'
+NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'majutsushi/tagbar'
+NeoBundle 'Shougo/vimproc'
+NeoBundle 'Shougo/vimshell'
+
+
+
+filetype plugin indent on
