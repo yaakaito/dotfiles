@@ -24,6 +24,7 @@ NeoBundle 'majutsushi/tagbar'
 NeoBundle 'Shougo/vimproc'
 NeoBundle 'Shougo/vimshell'
 
+NeoBundle 'nathanaelkane/vim-indent-guides'
 
 
 filetype plugin indent on
