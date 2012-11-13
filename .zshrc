@@ -1,3 +1,6 @@
+export LANG=ja_JP.UTF-8
+export LESSCHARSET=utf-8
+
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
@@ -34,3 +37,11 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+
+setopt magic_equal_subst
+setopt chase_links
+setopt nolistbeep
+
+[ -f ~/.dotfiles/.zshrc.alias ] && source ~/.dotfiles/.zshrc.alias
+
+clear

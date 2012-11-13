@@ -1,0 +1,6 @@
+
+alias tm="tmux -u"
+alias tma="tmux attach"
+
+alias v="vim"
+_
