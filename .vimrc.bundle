@@ -12,6 +12,8 @@ NeoBundle 'vim-scripts/vim-coffee-script'
 NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'jQuery'
 NeoBundle 'tpope/vim-markdown'
+NeoBundle 'tpope/vim-liquid'
+NeoBundle 'malclocke/vim-buster'
 
 NeoBundle 'chriskempson/tomorrow-theme'
 NeoBundle 'molokai'
