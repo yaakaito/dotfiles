@@ -1,13 +1,12 @@
 syntax on
 
-set background=dark
-
 set laststatus=2
 let g:Powerline_symbols = 'fancy'
 
 set nohlsearch
 set nocursorline
 set nocursorcolumn
+
 
 set cursorline
 augroup cch
@@ -19,3 +18,9 @@ augroup END
 hi clear CursorLine
 hi CursorLine gui=underline
 highlight CursorLine ctermbg=black guibg=black
+
+hi Pmenu ctermbg=0
+hi PmenuSel ctermbg=4
+hi PmenuSbar ctermbg=2
+hi PmenuThumb ctermfg=3
+

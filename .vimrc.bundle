@@ -27,6 +27,6 @@ NeoBundle 'Shougo/vimproc'
 NeoBundle 'Shougo/vimshell'
 
 NeoBundle 'nathanaelkane/vim-indent-guides'
-
+NeoBundle 'Shougo/neocomplcache'
 
 filetype plugin indent on
