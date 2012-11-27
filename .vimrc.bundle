@@ -14,6 +14,9 @@ NeoBundle 'jQuery'
 NeoBundle 'tpope/vim-markdown'
 NeoBundle 'tpope/vim-liquid'
 NeoBundle 'malclocke/vim-buster'
+NeoBundle 'vim-ruby/vim-ruby'
+NeoBundle 'skwp/vim-rspec'
+NeoBundle 'romanvbabenko/rails.vim'
 
 NeoBundle 'chriskempson/tomorrow-theme'
 NeoBundle 'molokai'
@@ -28,5 +31,7 @@ NeoBundle 'Shougo/vimshell'
 
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'Shougo/neocomplcache'
+NeoBundle 'project.tar.gz'
+NeoBundle 'scrooloose/nerdtree'
 
 filetype plugin indent on
