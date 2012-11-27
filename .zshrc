@@ -1,5 +1,6 @@
 export LANG=ja_JP.UTF-8
 export LESSCHARSET=utf-8
+alias prompt_contextx=prompt_context
 
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
