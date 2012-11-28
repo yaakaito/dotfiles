@@ -10,10 +10,3 @@ set backspace=indent,eol,start
 set directory=~/Temps
 set omnifunc=syntaxcomplete#Complete
 
-function! RTrim() 
-  let s:cursor = getpos(“.”)
-  %s/\s\+$//e
-  call setpos(“.”, s:cursor)
-endfunction
-
-autocmd BufWritePre *.php,*.rb,*.js,*.bat call RTrim()
