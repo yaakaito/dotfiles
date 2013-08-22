@@ -1,0 +1,13 @@
+[user]
+  name = KAZUMA Ukyo
+  email = yaakaito@gmail.com
+[alias]
+  st = status
+  stauts = status
+  ci = commit
+  cia = commit -a
+  ad = add
+  b = branch
+  br = branch
+  ba = branch -a
+  co = checkout
